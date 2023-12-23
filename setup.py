@@ -20,7 +20,7 @@ setup(
     include_package_data=True,
     entry_points={
         "console_scripts": [
-            "ollachat=cli:run_streamlit",
+            "ollachat=ollachat.cli:run_streamlit",
         ],
     },
     classifiers=[
