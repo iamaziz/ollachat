@@ -8,7 +8,7 @@ A Streamlit chatbot app that integrates with the Ollama LLMs. Includes Chat hist
 ## Getting started
 
 
-1) Install the pacakge
+1) Install the pacakge (in virtualenv recommended)
 
 ```bash
 pip install st_ollama
