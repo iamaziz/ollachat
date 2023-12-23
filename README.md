@@ -11,7 +11,7 @@ A Streamlit chatbot app that integrates with the Ollama LLMs. Includes Chat hist
 1) Install the pacakge
 
 ```bash
-pip install git+https://github.com/iamaziz/st_ollama.git
+pip install st_ollama
 ```
 
 2) Start the app
