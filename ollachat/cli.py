@@ -7,4 +7,8 @@ def run_streamlit():
     chatbot_path = os.path.join(dir_path, 'chatbot.py')
 
     # Run the command
-    subprocess.run(["streamlit", "run", chatbot_path])
+    try:
+        subprocess.run(["streamlit", "run", chatbot_path])
+    except KeyboardInterrupt:
+       print("Shutting down the Streamlit app...")
+       exit(0)
