@@ -1,3 +1,7 @@
+import os
+import json
+import datetime
+
 import streamlit as st
 from llama_index.llms import Ollama
 from llama_index.llms import ChatMessage
@@ -69,6 +73,25 @@ def assert_models_installed():
         st.stop()
 
 
+def save_conversation(llm_name, conversation_key):
+
+    OUTPUT_DIR = "llm_conversations"
+    OUTPUT_DIR = os.path.join(os.getcwd(), OUTPUT_DIR)
+
+    timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    filename = f"{OUTPUT_DIR}/{timestamp}_{llm_name.replace(':', '-')}"
+
+    if not os.path.exists(OUTPUT_DIR):
+        os.makedirs(OUTPUT_DIR)
+
+    if st.session_state[conversation_key]:
+
+        if st.sidebar.button("Save conversation"):
+            with open(f"{filename}.json", "w") as f:
+                json.dump(st.session_state[conversation_key], f, indent=4)
+            st.success(f"Conversation saved to {filename}.json")
+
+
 if __name__ == "__main__":
 
     page_config()
@@ -91,3 +114,5 @@ if __name__ == "__main__":
             st.session_state[conversation_key] = []
             st.rerun()
 
+    # save conversation to file
+    save_conversation(llm_name, conversation_key)

@@ -1,8 +1,8 @@
 # Ollachat 🚀
 
-> **TL;DR** A minimal Streamlit Chatbot with Ollama models
+> **TL;DR** A minimal Streamlit Chatbot GUI for Ollama models
 
-A Streamlit chatbot app that integrates with the Ollama LLMs. Includes Chat history; and each model has its own log history.
+A Streamlit chatbot app that integrates with the Ollama LLMs. Includes chat history; and each model has its own chat log.
 
 
 ## Getting started
