@@ -21,9 +21,10 @@ ollachat
 ```
 
 
-## Example
+### Example
 
-![2024-01-03 20 18 26](https://github.com/iamaziz/st_ollama/assets/3298308/edcf6166-8da5-4d27-81c7-bce6694a55a7)
+![](example.gif)
+
 
 ### Notes
 
