@@ -20,6 +20,11 @@ pip install st_ollama
 ollachat
 ```
 
+
+## Example
+
+![2024-01-03 20 18 26](https://github.com/iamaziz/st_ollama/assets/3298308/edcf6166-8da5-4d27-81c7-bce6694a55a7)
+
 ### Notes
 
 - [Ollama](http://ollama.ai/) must be installed.
