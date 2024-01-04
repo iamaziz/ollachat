@@ -23,8 +23,7 @@ ollachat
 
 ### Example
 
-![](example.gif)
-
+![](example.mp4)
 
 ### Notes
 
