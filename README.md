@@ -23,7 +23,7 @@ ollachat
 
 ### Example
 
-https://github.com/iamaziz/st_ollama/assets/3298308/7766e3e1-d075-4473-9ca3-5c7a864f50b6
+https://github.com/iamaziz/st_ollama/assets/3298308/7e0d4cc2-ded3-4c24-aa29-bf3927aa0ec9
 
 ### Notes
 
