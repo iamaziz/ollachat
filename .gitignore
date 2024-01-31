@@ -1,3 +1,5 @@
+publish_to_pypi.sh
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
