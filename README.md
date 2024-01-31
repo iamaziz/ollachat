@@ -21,9 +21,13 @@ ollachat
 ```
 
 
-### Example
+### Demos
 
 https://github.com/iamaziz/st_ollama/assets/3298308/7e0d4cc2-ded3-4c24-aa29-bf3927aa0ec9
+
+> show model details (release `1.0.4`)
+
+https://github.com/iamaziz/st_ollama/assets/3298308/4471ffe5-8a10-4c86-bb01-e8470ff93d28
 
 ### Notes
 
