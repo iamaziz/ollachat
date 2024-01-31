@@ -4,7 +4,7 @@ HOME_URL = "https://github.com/iamaziz/st_ollama"
 
 setup(
     name="st_ollama",
-    version="0.1.3",
+    version="0.1.4",
     author="Aziz Alto",
     author_email="iamaziz.alto@gmail.com",
     description="A Streamlit chatbot app integrating Ollama LLMs",
