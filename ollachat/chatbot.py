@@ -73,6 +73,25 @@ def assert_models_installed():
         st.stop()
 
 
+def select_model():
+    names = [model["name"] for model in OLLAMA_MODELS]
+    llm_name = st.sidebar.selectbox("Choose Agent", [""] + names)
+    if llm_name:
+
+        # llm details object
+        llm_details = [model for model in OLLAMA_MODELS if model["name"] == llm_name][0]
+
+        # convert size in llm_details from bytes to GB (human-friendly display)
+        if type(llm_details["size"]) != str:
+            llm_details["size"] = f"{round(llm_details['size'] / 1e9, 2)} GB"
+
+        # display llm details
+        with st.expander("LLM Details"):
+            st.write(llm_details)
+
+        return llm_name
+
+
 def save_conversation(llm_name, conversation_key):
 
     OUTPUT_DIR = "llm_conversations"
@@ -97,7 +116,7 @@ if __name__ == "__main__":
     page_config()
     
     st.sidebar.title("Ollama Chat 🦙")
-    llm_name = st.sidebar.selectbox("Choose Agent", [""] + OLLAMA_MODELS)
+    llm_name = select_model()
     
     assert_models_installed()
     
