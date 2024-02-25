@@ -2,7 +2,7 @@
 
 ---
 
-## **NOTE**: package name has been chagned from `st_ollama` to `ollachat` in v1.5
+### **NOTE**: package name has been chagned from `st_ollama` to `ollachat` in v1.5
 
 ---
 
