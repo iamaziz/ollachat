@@ -1,5 +1,7 @@
 # Ollachat 🚀
 
+[![PyPI version](https://badge.fury.io/py/ollachat.svg)](http://badge.fury.io/py/ollachat)
+
 ---
 
 ### **NOTE**: package name has been chagned from `st_ollama` to `ollachat` in v1.5
