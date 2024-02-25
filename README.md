@@ -1,5 +1,11 @@
 # Ollachat 🚀
 
+---
+
+## **NOTE**: package name has been chagned from `st_ollama` to `ollachat` in v1.5
+
+---
+
 > **TL;DR** A minimal Streamlit Chatbot GUI for Ollama models
 
 A Streamlit chatbot app that integrates with the Ollama LLMs. Includes chat history; and each model has its own chat log.
@@ -11,7 +17,7 @@ A Streamlit chatbot app that integrates with the Ollama LLMs. Includes chat hist
 1) Install the pacakge (in virtualenv recommended)
 
 ```bash
-pip install st_ollama
+pip install ollachat
 ```
 
 2) Start the app
