@@ -1,3 +1,2 @@
-llama_index==0.9.40
 streamlit==1.29.0
 ollama==0.1.2
