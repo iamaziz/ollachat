@@ -29,6 +29,12 @@ ollachat
 
 ### Demos
 
+
+
+https://github.com/iamaziz/ollachat/assets/3298308/722b2cdf-8614-4716-ac02-1a436995b3dd
+
+
+
 https://github.com/iamaziz/st_ollama/assets/3298308/7e0d4cc2-ded3-4c24-aa29-bf3927aa0ec9
 
 > show model details (release `1.0.4`)
